@@ -2,7 +2,7 @@ rules_version = '2';
 service cloud.firestore {
  match /databases/{database}/documents {
   function admin() {
-   return request.auth != null && request.auth.uid == "SUBSTITUA_PELO_UID_DO_ADMIN";
+   return request.auth != null && request.auth.uid == "n8r0xqMKGfRLV09emJ84p8JTWgb2";
   }
   match /pedidos/{id} {
    allow create: if request.auth != null
