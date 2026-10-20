@@ -1,0 +1,9 @@
+TOTEM DE FESTAS — PROTÓTIPO V1
+
+1. Para testar no computador, abra index.html no Chrome ou Firefox.
+2. Para instalar no tablet Android como PWA, publique a pasta em uma hospedagem HTTPS (por exemplo, GitHub Pages ou Netlify), abra o endereço no Chrome Android e escolha 'Adicionar à tela inicial' ou 'Instalar aplicativo'.
+3. O aplicativo registra pedidos SOMENTE no armazenamento local do navegador do tablet. Eles não chegam automaticamente ao caixa. Para operação real é necessário um servidor, sincronização, autenticação segura, backups e políticas de privacidade.
+4. Área administrativa de demonstração: PIN 1234. Não é seguro e não deve ser usado em produção.
+5. Preços são valores iniciais ilustrativos/editáveis no arquivo index.html. Itens sem preço são 'a consultar'. Confirme todos antes de usar.
+6. O navegador pode apagar os dados locais; exporte CSV periodicamente durante testes.
+7. O app não cobra pagamentos nem imprime automaticamente em impressoras térmicas.
